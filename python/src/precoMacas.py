@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-dado = np.loadtxt('apples_ts.csv',delimiter=',',usecols=np.arange(1,88,1))
+dado = np.loadtxt('data/apples_ts.csv',delimiter=',',usecols=np.arange(1,88,1))
 
 np.arange(1,88,1)
 
@@ -37,9 +37,12 @@ plt.plot(np.arange(1,13,1),MoscowAno3)
 plt.plot(np.arange(1,13,1),MoscowAno4)
 
 plt.legend(['ano1','ano2','ano3','ano4'])
+plt.savefig('outputs/macasPorAno.png')
+
 plt.show()
 
 plt.plot(datas,Kaliningrad)
+plt.savefig('outputs/macasKaliningrad.png')
 plt.show()
 
 x=datas
@@ -60,6 +63,7 @@ print(np.linalg.norm(Moscow-y))
 plt.plot(datas,Moscow)
 plt.plot(x,y)
 plt.plot(41.5,41.5*a+b,'*r')
+plt.savefig('outputs/macasMoscow.png')
 plt.show()
 
 

@@ -2,7 +2,7 @@ import pandas as pd
 
 import numpy as np
 
-dados = pd.read_json('/home/gustavo/Documentos/python/dados_hospedagem.json')
+dados = pd.read_json('/home/gustavo/Documentos/python/data/dados_hospedagem.json')
 
 #print(dados.head())
 

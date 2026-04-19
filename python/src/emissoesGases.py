@@ -1,9 +1,9 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # type: ignore
 
 
 
-url = '/home/gustavo/Documentos/python/1-SEEG10_GERAL-BR_UF_2022.10.27-FINAL-SITE.xlsx'
+url = '/home/gustavo/Documentos/python/data/1-SEEG10_GERAL-BR_UF_2022.10.27-FINAL-SITE.xlsx'
 
 emissoes_gases = pd.read_excel(url, sheet_name='GEE Estados')
 
