@@ -19,3 +19,13 @@ Durante o projeto foram realizadas:
 - Limpeza de dados
 - Tratamento de valores nulos
 - Visualização de dados
+
+## 🛠️ Tecnologias utilizadas
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- openpyxl
+- SQLAlchemy
+- Git & GitHub
