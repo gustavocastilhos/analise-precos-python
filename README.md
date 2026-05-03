@@ -77,6 +77,3 @@ Este projeto permitiu desenvolver habilidades em:
 * Organização de projetos de Data Science
 * Uso de Git e GitHub para versionamento
 
-```
-
-```
